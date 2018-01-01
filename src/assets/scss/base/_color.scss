@@ -1,0 +1,14 @@
+
+
+$black:#000000;
+$white:#ffffff;
+
+/* Theme colors*/
+$color-map-purple: (
+    1000:#493DF4,
+    2000:#716FF2,
+    3000:#CBCDF4
+);
+
+$alert-success:lighten(green,10%);
+$alert-failure:lighten(red,10%);

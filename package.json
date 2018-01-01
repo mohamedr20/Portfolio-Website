@@ -1,0 +1,36 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Website created to showcase work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedr20/Portfolio-Website.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Responsive",
+    "Flexbox"
+  ],
+  "author": "Mohamed Isse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedr20/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/mohamedr20/Portfolio-Website#readme",
+  "dependencies": {
+    "browser-sync": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-minify": "^2.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
