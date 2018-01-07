@@ -1,0 +1,11 @@
+.contact{
+    background:#009688;
+   }
+.contact-header{
+    color:white;
+    font-size:32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight:500;
+    align-self: flex-start;
+    margin-top:50px;
+}

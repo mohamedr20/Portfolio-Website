@@ -1,0 +1,13 @@
+<mat-grid-list cols="1" rowHeight = "2.25:1">
+    <h3 class="portfolio-header">Latest Projects</h3>
+      <mat-grid-tile>
+        <mat-card *ngFor="let portfolio of portfolio_items">
+          <img mat-card-sm-image class="card-img" src="{{portfolio.imgUrl}}">
+          <mat-card-subtitle><h3>{{portfolio.heading}}</h3></mat-card-subtitle>
+          <mat-card-subtitle>{{portfolio.sub_heading}}</mat-card-subtitle>
+          <mat-card-subtitle>
+            {{portfolio.description}}
+          </mat-card-subtitle>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>

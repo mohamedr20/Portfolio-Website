@@ -1,0 +1,17 @@
+span{
+    text-transform: uppercase;
+    font-size:16px;
+    letter-spacing: 2px;
+    }
+    mat-toolbar{
+        background:#FA403C;
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        z-index:10;
+        padding:0 16px 0 0;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.96);
+        color:white;
+    }
+    
